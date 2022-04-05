@@ -1,6 +1,5 @@
 # Dependencies
 library(shiny)
-library(shinyTime)
 library(shinydashboard)
 library(shinyvalidate)
 library(ggplot2)
