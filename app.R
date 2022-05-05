@@ -57,7 +57,7 @@ sidebar<-dashboardSidebar(
     div(style="text-align:center;font-weight:bold;","Sprint-Drag-Carry"),
     splitLayout(
       numericInput("sdc_min","minutes",0, min=0),
-      numericInput("sdc_sec", "seconds",0, min=0,max=69),
+      numericInput("sdc_sec", "seconds",0, min=0,max=59),
       cellWidths = c("50%", "50%"),
     )
   ),
