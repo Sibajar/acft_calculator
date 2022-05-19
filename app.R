@@ -134,6 +134,7 @@ server <- function(input, output) {
     all_events<-list(mdl,spt,hrp,sdc,plank,run)
     scores<-get_total_score(all_events, data)
     df<-get_df(all_events, scores)
+    
   })
   
   # ValueBox for ACFT Score--Green is Pass & Red if Fail
