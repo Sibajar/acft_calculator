@@ -77,6 +77,6 @@ get_df<-function(input_values, scores){
     values<-append(values,val)
     scores2<-append(scores2,score)
   }
+  events<-ordered(events, levels = c("Run","Plank","Sprint-Drag-Carry","Hand Release Push-Up","Standing Power Throw","3 Repetition Deadlift"))
   df<-data.frame("Event"=events,"Value"=as.numeric(values),"Score"=as.numeric(scores2))
   return (df)
-}
